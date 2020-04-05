@@ -48,7 +48,7 @@ const ColCardBox = ({
         ActivateModal(true);
         DetailRequest(true);
 
-        fetch(`http://www.omdbapi.com/?i=${imdbID}&apikey=${API_KEY}`)
+        fetch(`https://www.omdbapi.com/?i=${imdbID}&apikey=${API_KEY}`)
             .then((resp) => resp)
             .then((resp) => resp.json())
             .then((response) => {
