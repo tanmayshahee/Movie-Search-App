@@ -24,7 +24,7 @@ const SearchBox = ({ searchHandler }) => {
         <Row>
             <Col span={12} offset={6}>
                 <Search
-                    placeholder="enter movie, series, episode name"
+                    placeholder="Enter Movie, Series, Episode Name"
                     enterButton="Search"
                     size="large"
                     onSearch={(value) => searchHandler(value)}
@@ -238,7 +238,7 @@ function App() {
                     </Modal>
                 </Content>
                 <Footer style={{ textAlign: "center" }}>
-                    Movie App by Tanmay © 2020
+                    Movie App by Tanmay Shah © 2020
                 </Footer>
             </Layout>
         </div>
